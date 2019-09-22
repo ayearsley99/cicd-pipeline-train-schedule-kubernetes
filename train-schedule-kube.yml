@@ -32,6 +32,6 @@ spec:
       containers:
       - name: train-schedule
         image: $DOCKER_IMAGE_NAME:$BUILD_NUMBER
-        imagePullPolicy: "Allways"
+        imagePullPolicy: "Always"
         ports:
         - containerPort: 8080
